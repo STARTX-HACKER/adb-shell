@@ -1,6 +1,4 @@
-cd ~/adb-shell
-mv adb ~/usr/bin
-cd ../usr/bin
-chmod +x adb
-cd
-rm -rf adb-shell
+​cd​ ​~​/adb-shell
+​mv /data/data/com.termux/files/home/adb-shell/adb /data/data/com.termux/files/usr/bin/
+​chmod +x /data/data/com.termux/files/usr/bin/adb
+​rm -rf adb-shell
