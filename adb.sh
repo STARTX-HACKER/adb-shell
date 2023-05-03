@@ -3,7 +3,7 @@
 
 mv ~/adb-shell/adb ~/../usr/bin
 chmod +x ~/../usr/bin/adb
-[ -e "$PREFIX/opt/adb-shell" ] && mkdir ~/../usr/opt/adb-shell
+[ -e "$PREFIX/opt/adb-shell" ] ; mkdir ~/../usr/opt/adb-shell
 mv ~/adb.dex ~/../usr/opt/adb-shell/
 rm -rf ~/adb-shell
 cd
