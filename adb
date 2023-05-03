@@ -1,5 +1,4 @@
 #!/system/bin/sh
-PREFIX=$(dirname "$0")
 DEX="$PREFIX"/opt/adb-shell/adb.dex
 
 if [ ! -f "$DEX" ]; then
