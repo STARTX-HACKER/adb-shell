@@ -3,6 +3,6 @@
 
 mv $HOME/adb-shell/adb $PREFIX/bin/
 chmod +x ~/../usr/bin/adb
-[ -e "$PREFIX/opt/adb-shell" ]; mkdir $PREFIX/opt/adb-shell
+[ -e "$PREFIX/opt/adb-shell" ] || mkdir $PREFIX/opt/adb-shell
 mv $HOME/adb.dex $PREFIX/opt/adb-shell/
 rm -rf $HOME/adb-shell
