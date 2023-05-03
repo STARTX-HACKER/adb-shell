@@ -1,6 +1,6 @@
 #!/system/bin/sh
-HOME=$(dirname "$0")
-DEX="$HOME"/.ADB.dex
+PREFIX=$(dirname "$0")
+DEX="$PREFIX"/opt/adb-shell/adb.dex
 
 if [ ! -f "$DEX" ]; then
   echo "Cannot find $DEX, please check the tutorial in Shizuku app"
