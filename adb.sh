@@ -3,6 +3,6 @@
 
 mv ~/adb-shell/adb ~/../usr/bin
 chmod +x ~/../usr/bin/adb
-[ -e "~/../usr/opt/adb-shell" ] && mkdir ~/../usr/opt/adb-shell
+[ -e "/../usr/opt/adb-shell" ] && mkdir ~/../usr/opt/adb-shell
 mv ~/adb.dex ~/../usr/opt/adb-shell/
 rm -rf ~/adb-shell
