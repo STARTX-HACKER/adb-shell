@@ -1,6 +1,6 @@
 #!/system/bin/sh
-BASEDIR=$(dirname "$0")
-DEX="$BASEDIR"/rish_shizuku.dex
+HOME=$(dirname "$0")
+DEX="$HOME"/.ADB.dex
 
 if [ ! -f "$DEX" ]; then
   echo "Cannot find $DEX, please check the tutorial in Shizuku app"
